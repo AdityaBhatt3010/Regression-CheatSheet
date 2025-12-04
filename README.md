@@ -107,8 +107,6 @@ Users may supply any properly formatted CSV.
 
 Below is a clear explanation of each algorithm, when to use it, and a short runnable snippet.
 
----
-
 # 1️⃣ **Linear Regression**
 
 A simple model assuming a linear relationship between features and target.
@@ -374,4 +372,5 @@ If you enjoyed this analysis, check out more of my work:
 **Aditya Bhatt** — Turning black-box models into transparent systems.
 
 ---
+
 
