@@ -367,9 +367,25 @@ This runs:
 
 ---
 
-# ✨ Author
+### 👋 **Goodbye Note**
 
-**Aditya Bhatt** <br/>
-Regression & Explainability Cheatsheet
+Good luck, and may your R² rise, your MSE fall,
+and your SHAP plots always make sense.
+
+---
+
+### 🐾 Follow Me
+
+If you enjoyed this analysis, check out more of my work:
+
+🔗 [GitHub](https://github.com/AdityaBhatt3010) <br/>
+💼 [LinkedIn](https://www.linkedin.com/in/adityabhatt3010/) <br/>
+✍️ [Medium](https://medium.com/@adityabhatt3010) <br/>
+
+---
+
+# 👨‍💻 Crafted By  
+
+**Aditya Bhatt** — Turning black-box models into transparent systems.
 
 ---
