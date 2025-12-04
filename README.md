@@ -111,7 +111,7 @@ Below is a clear explanation of each algorithm, when to use it, and a short runn
 
 A simple model assuming a linear relationship between features and target.
 
-**Good for:**
+**Good for:** <br/>
 ✔ Simple relationships <br/>
 ✔ Quick baseline <br/>
 ✔ Interpretable coefficients <br/>
@@ -161,7 +161,7 @@ ElasticNet(alpha=0.01, l1_ratio=0.5)
 
 Transforms features into higher-degree polynomial combinations.
 
-**Useful for:**
+**Useful for:** <br/>
 ✔ Non-linear relationships <br/>
 ✔ Smooth curves <br/>
 
@@ -185,7 +185,7 @@ pipe.fit(X_train, y_train)
 
 A powerful model using kernel functions to capture complex non-linear patterns.
 
-**Pros:**
+**Pros:** <br/>
 ✔ Works well on small datasets <br/>
 ✔ Handles outliers using ε-insensitive loss <br/>
 
@@ -202,7 +202,7 @@ model = SVR(kernel="rbf").fit(X_train, y_train)
 
 Learns decision boundaries in feature space.
 
-**Pros:**
+**Pros:** <br/>
 ✔ Interpretable <br/>
 ✔ Handles non-linearity <br/>
 ✔ No scaling required <br/>
@@ -218,7 +218,7 @@ model = DecisionTreeRegressor().fit(X_train, y_train)
 
 An ensemble of many decision trees.
 
-**Pros:**
+**Pros:** <br/>
 ✔ High accuracy <br/>
 ✔ Low overfitting <br/>
 ✔ Handles noisy data <br/>
@@ -234,7 +234,7 @@ model = RandomForestRegressor().fit(X_train, y_train)
 
 Sequential ensemble of decision trees trained to correct previous errors.
 
-**Pros:**
+**Pros:** <br/>
 ✔ Very accurate <br/>
 ✔ Works well on structured/tabular data <br/>
 ✔ Handles non-linearity <br/>
@@ -250,7 +250,7 @@ model = GradientBoostingRegressor().fit(X_train, y_train)
 
 Extreme Gradient Boosting — optimized, regularized, fast.
 
-**Pros:**
+**Pros:** <br/>
 🔥 State-of-the-art performance on tabular data <br/>
 🔥 Built-in regularization <br/>
 🔥 GPU acceleration <br/>
@@ -372,5 +372,6 @@ If you enjoyed this analysis, check out more of my work:
 **Aditya Bhatt** — Turning black-box models into transparent systems.
 
 ---
+
 
 
