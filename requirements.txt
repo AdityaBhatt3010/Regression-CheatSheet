@@ -1,0 +1,11 @@
+numpy>=1.21
+pandas>=1.3
+scikit-learn>=1.0
+matplotlib>=3.5
+seaborn>=0.11
+
+# Optional advanced models
+xgboost>=1.6
+
+# Optional explainability tools
+shap>=0.42
