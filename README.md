@@ -102,21 +102,6 @@ This repository does **not** include a dataset.
 Users may supply any properly formatted CSV.
 
 ---
-Perfect — I'll generate a **clean, professional, GitHub-ready `README.md`** tailored specifically for your repo:
-
-* Describes the project
-* Explains each regression algorithm briefly
-* Includes small code snippets
-* Shows repo structure
-* Shows how to run `.py` scripts and `.ipynb` notebooks
-* Includes SHAP explainability section
-* Minimal, clean, beginner-friendly
-* Looks polished to recruiters & students
-
-Here is your complete **README.md** ⬇️
-(You can copy–paste as is into your repo.)
-
----
 
 # 🧠 Algorithms Covered (Brief Theory + Code Snippets)
 
@@ -129,9 +114,9 @@ Below is a clear explanation of each algorithm, when to use it, and a short runn
 A simple model assuming a linear relationship between features and target.
 
 **Good for:**
-✔ Simple relationships
-✔ Quick baseline
-✔ Interpretable coefficients
+✔ Simple relationships <br/>
+✔ Quick baseline <br/>
+✔ Interpretable coefficients <br/>
 
 **Code:**
 
@@ -179,8 +164,8 @@ ElasticNet(alpha=0.01, l1_ratio=0.5)
 Transforms features into higher-degree polynomial combinations.
 
 **Useful for:**
-✔ Non-linear relationships
-✔ Smooth curves
+✔ Non-linear relationships <br/>
+✔ Smooth curves <br/>
 
 **Code:**
 
@@ -203,8 +188,8 @@ pipe.fit(X_train, y_train)
 A powerful model using kernel functions to capture complex non-linear patterns.
 
 **Pros:**
-✔ Works well on small datasets
-✔ Handles outliers using ε-insensitive loss
+✔ Works well on small datasets <br/>
+✔ Handles outliers using ε-insensitive loss <br/>
 
 **Code:**
 
@@ -220,9 +205,9 @@ model = SVR(kernel="rbf").fit(X_train, y_train)
 Learns decision boundaries in feature space.
 
 **Pros:**
-✔ Interpretable
-✔ Handles non-linearity
-✔ No scaling required
+✔ Interpretable <br/>
+✔ Handles non-linearity <br/>
+✔ No scaling required <br/>
 
 ```python
 from sklearn.tree import DecisionTreeRegressor
@@ -236,9 +221,9 @@ model = DecisionTreeRegressor().fit(X_train, y_train)
 An ensemble of many decision trees.
 
 **Pros:**
-✔ High accuracy
-✔ Low overfitting
-✔ Handles noisy data
+✔ High accuracy <br/>
+✔ Low overfitting <br/>
+✔ Handles noisy data <br/>
 
 ```python
 from sklearn.ensemble import RandomForestRegressor
@@ -252,9 +237,9 @@ model = RandomForestRegressor().fit(X_train, y_train)
 Sequential ensemble of decision trees trained to correct previous errors.
 
 **Pros:**
-✔ Very accurate
-✔ Works well on structured/tabular data
-✔ Handles non-linearity
+✔ Very accurate <br/>
+✔ Works well on structured/tabular data <br/>
+✔ Handles non-linearity <br/>
 
 ```python
 from sklearn.ensemble import GradientBoostingRegressor
@@ -268,9 +253,9 @@ model = GradientBoostingRegressor().fit(X_train, y_train)
 Extreme Gradient Boosting — optimized, regularized, fast.
 
 **Pros:**
-🔥 State-of-the-art performance on tabular data
-🔥 Built-in regularization
-🔥 GPU acceleration
+🔥 State-of-the-art performance on tabular data <br/>
+🔥 Built-in regularization <br/>
+🔥 GPU acceleration <br/>
 
 ```python
 import xgboost as xgb
@@ -389,3 +374,4 @@ If you enjoyed this analysis, check out more of my work:
 **Aditya Bhatt** — Turning black-box models into transparent systems.
 
 ---
+
