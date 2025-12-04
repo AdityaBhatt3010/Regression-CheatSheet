@@ -10,6 +10,8 @@ This repository helps you:
 - Use **SHAP** to explain predictions of any regression model
 - Explore models interactively using Jupyter notebooks
 
+![Cover](https://github.com/user-attachments/assets/0a472a60-2f61-4eb2-af8f-9a2e2d11a34c) <br/>
+
 ---
 
 ## 🔧 Folder Structure
@@ -372,6 +374,7 @@ If you enjoyed this analysis, check out more of my work:
 **Aditya Bhatt** — Turning black-box models into transparent systems.
 
 ---
+
 
 
 
